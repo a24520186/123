@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p.name {
+  font-size: 40px;
+}
+
+p.job {
+  font-size: 17px;
+  margin-top: 70px;
+}
+
+p.aboutMe {
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+p.call {
+  font-size: 25px;
+}
+
+div.resume {
+  display: flex;
+}
+
+div.left {
+  background-color: #dcdcdc;
+  flex: 5;
+  text-align: center;
+}
+
+p.about {
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 2.5;
+}
+
+li.nocircle {
+  list-style: none;
+  text-indent: 45px;
+}
+
+li.nocircleText {
+  list-style: none;
+  text-indent: 10px;
+  line-height: 2.5;
+  text-indent: 45px;
+}
+
+li.about {
+  line-height: 2.5;
+  text-align: left;
+  list-style: none;
+  margin-left: 180px;
+}
+
+div.right {
+  flex: 5;
+  margin-left: 60px;
+  margin-right: 60px;
+  //   padding: 1px 80px 1px 80px;
+  //   margin: 1px 80px 1px 80px;
+
+  //   text-align: center;
+}
+
+div.discribe {
+  background-color: #dcdcdc;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+//學歷的字體
+li.bold {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 2.5;
+  margin-left: 25px;
+}
+
+li.bold2 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 2;
+  margin-left: 45px;
+}
+
+li.boldBottom {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 2.5;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+// RWD
+
+@media screen and (max-width: 750px) {
+  div.resume {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  div.resume {
+    overflow: hidden;
+  }
+}
